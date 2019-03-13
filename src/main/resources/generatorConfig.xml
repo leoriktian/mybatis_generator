@@ -33,7 +33,7 @@
         <!-- 指定dataObject类生成的位置 -->
         <!-- targetPackage:包名称(自定义)  targetProject：项目路径(自定义)   -->
         <javaModelGenerator targetPackage="com.miaoshaproject.dataobject"
-                            targetProject=".\src\main\java">
+                            targetProject="src/main/java">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="true" />
             <!-- 从数据库返回的值被清理前后的空格  -->
