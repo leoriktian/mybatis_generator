@@ -8,5 +8,8 @@ Intellij IDEA中使用MyBatis-generator 自动生成MyBatis代码
   4、在resources中建立generatorConfig.xml 
   5、点击 Maven Projects ->双击 mybatis-generator下的mybatis_generator:genertate会
      自动生成MyBatis代码(mapper接口/mapper.xml/po类)
+     
+   或者进入Edit Configurations -->Maven-->Command line 填入mybatis-generator:generate命令,然后run运行该命令就自动生成了
+   
 
 
